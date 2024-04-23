@@ -1,2 +1,2 @@
-import { ReactComponent as MarkIcon } from "./mark.svg"
-export { MarkIcon }
+import { ReactComponent as FlagUzIcon } from "./flag-UZ.svg"
+export { FlagUzIcon }

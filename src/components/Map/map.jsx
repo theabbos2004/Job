@@ -15,7 +15,6 @@ const Map = () => {
                 map?.controls?.remove("fullscreenControl")
                 map?.controls?.remove("typeSelector")
                 map?.controls?.remove("geolocationControl")
-
                 map.controls.add('zoomControl', {
                     size:"small",
                     position: {
@@ -45,7 +44,7 @@ const Map = () => {
         }
     },[])
   return (
-    <div id="map" className='position-absolute t-0 s-0 w-100 h-100'></div>
+        <div id="map" className='position-absolute t-0 s-0 w-100 h-100'></div>
   );
 };
 

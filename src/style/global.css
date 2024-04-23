@@ -5,4 +5,7 @@
 }
 :root{
     --color-white:#ffffff;
+    --color-yellow: rgba(252, 224, 0, 1);
+    --color-web-icon:rgba(121, 123, 23, 1);
+    ;
 }
