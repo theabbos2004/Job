@@ -1,2 +1,3 @@
 import Map from "./Map/map"
-export { Map }
+import Header from "./Header/header"
+export { Map , Header}
