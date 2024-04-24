@@ -173,10 +173,7 @@ export default function Search() {
                     onMouseLeave={()=>{setIsListItem(false)}}>
                     <ul className='overflow-y-scroll'>
                         {
-                            list?.map((item,index)=>{
-                                if(item?.active){
-                                    return item?.drop?.map((dropItem,dropIndex)=>{
-                                    return(<li key={dropIndex} 
+                            list?.filter(item=>item?.active && item )[0]?.drop?.map((dropItem,dropIndex)=><li key={dropIndex} 
                                         className='p-3 d-flex justify-content-between border-bottom' 
                                         style={{cursor:"pointer"}}
                                         onClick={()=>{
@@ -187,10 +184,8 @@ export default function Search() {
                                             {
                                                 dropItem?.active ? <ListSuccessIcon/> : <ListSuccessMuteIcon/>
                                             }
-                                        </li>)}
+                                        </li>
                                         )
-                                }
-                            })
                         }
                     </ul>
                 </div>
