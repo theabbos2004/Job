@@ -1,0 +1,9 @@
+.scrollList{
+    overflow-y: scroll;
+    &::-webkit-scrollbar-thumb {
+        display: none;
+    }
+    &::-webkit-scrollbar-track {
+        background-color: transparent;
+    }
+}
