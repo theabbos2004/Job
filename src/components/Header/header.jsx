@@ -3,7 +3,7 @@ import { FlagUzIcon } from '../../assets/icon'
 
 export default function Header() {
   return (
-    <header className='w-100 p-2 px-3 card rounded-5 d-flex flex-row align-items-center shadow-lg'>
+    <header className='w-100 p-2 px-3 card rounded-5 d-flex flex-row align-items-center shadow-lg' style={{height:"10%"}}>
         <div className='col-2'>
             <div className='fst-italic h4' style={{fontWeight:"900",fontFamily:"sans-serif",color:"var(--color-web-icon)"}}>Worker</div>
         </div>
